@@ -3,10 +3,14 @@
   "main": "./lib/atom-monkey",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "atom-monkey:toggle"
+    "atom-workspace": [
+      "atom-monkey:format_json",
+      "atom-monkey:insert_date_iso",
+      "atom-monkey:insert_uuid",
+      "atom-monkey:validate_json"
+    ]
   },
   "repository": "https://github.com/atom/atom-monkey",
   "license": "MIT",
@@ -14,5 +18,13 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
   }
 }

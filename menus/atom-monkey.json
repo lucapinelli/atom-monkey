@@ -15,8 +15,20 @@
           "label": "atom-monkey",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "atom-monkey:toggle"
+              "label": "Format JSON",
+              "command": "atom-monkey:format_json"
+            },
+            {
+              "label": "Insert Date",
+              "command": "atom-monkey:insert_date_iso"
+            },
+            {
+              "label": "Insert UUID",
+              "command": "atom-monkey:insert_uuid"
+            },
+            {
+              "label": "Validate JSON",
+              "command": "atom-monkey:validate_json"
             }
           ]
         }

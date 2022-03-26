@@ -1,5 +1,8 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "atom-monkey:toggle"
+    "ctrl-alt-m f j": "atom-monkey:format_json",
+    "ctrl-alt-m i d": "atom-monkey:insert_date_iso",
+    "ctrl-alt-m i u": "atom-monkey:insert_uuid",
+    "ctrl-alt-m v j": "atom-monkey:validate_json"
   }
 }
