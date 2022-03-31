@@ -2,8 +2,25 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle atom-monkey",
-        "command": "atom-monkey:toggle"
+        "label": "Atom Monkey",
+        "submenu": [
+          {
+            "label": "Format JSON",
+            "command": "atom-monkey:format_json"
+          },
+          {
+            "label": "Insert Date",
+            "command": "atom-monkey:insert_date_iso"
+          },
+          {
+            "label": "Insert UUID",
+            "command": "atom-monkey:insert_uuid"
+          },
+          {
+            "label": "Validate JSON",
+            "command": "atom-monkey:validate_json"
+          }
+        ]
       }
     ]
   },
@@ -12,7 +29,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-monkey",
+          "label": "Atom Monkey",
           "submenu": [
             {
               "label": "Format JSON",
